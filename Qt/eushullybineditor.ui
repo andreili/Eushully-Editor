@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EushullyBinEditor</class>
+ <widget class="QDialog" name="EushullyBinEditor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>821</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Заголовки</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QTableWidget" name="tw_header">
+         <property name="columnCount">
+          <number>1</number>
+         </property>
+         <row>
+          <property name="text">
+           <string>Версия</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Тип</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Размер части 0x71</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Размер части 0x03</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Размер части 0x8F</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Значение</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Программа</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QTableWidget" name="tw_script">
+         <row>
+          <property name="text">
+           <string>Новая строка</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Команда</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_6">
+      <attribute name="title">
+       <string>Строки</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QTableWidget" name="tw_strings"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>0х71</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>0х03</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>0х8f</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
